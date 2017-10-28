@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28C883D1FA52B2000BE7C7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C883C1FA52B2000BE7C7A /* AppDelegate.swift */; };
+		B28C883F1FA52B2000BE7C7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C883E1FA52B2000BE7C7A /* ViewController.swift */; };
+		B28C88421FA52B2000BE7C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28C88401FA52B2000BE7C7A /* Main.storyboard */; };
+		B28C88441FA52B2000BE7C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28C88431FA52B2000BE7C7A /* Assets.xcassets */; };
+		B28C88471FA52B2000BE7C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28C88451FA52B2000BE7C7A /* LaunchScreen.storyboard */; };
+		B28C88521FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C88511FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests.swift */; };
+		B28C885D1FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C885C1FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B28C884E1FA52B2000BE7C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28C88311FA52B1F00BE7C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28C88381FA52B1F00BE7C7A;
+			remoteInfo = KumuMarionTrickOrTreat;
+		};
+		B28C88591FA52B2000BE7C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28C88311FA52B1F00BE7C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28C88381FA52B1F00BE7C7A;
+			remoteInfo = KumuMarionTrickOrTreat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B28C88391FA52B2000BE7C7A /* KumuMarionTrickOrTreat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KumuMarionTrickOrTreat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28C883C1FA52B2000BE7C7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B28C883E1FA52B2000BE7C7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B28C88411FA52B2000BE7C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B28C88431FA52B2000BE7C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B28C88461FA52B2000BE7C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B28C88481FA52B2000BE7C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28C884D1FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KumuMarionTrickOrTreatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28C88511FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumuMarionTrickOrTreatTests.swift; sourceTree = "<group>"; };
+		B28C88531FA52B2000BE7C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28C88581FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KumuMarionTrickOrTreatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28C885C1FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumuMarionTrickOrTreatUITests.swift; sourceTree = "<group>"; };
+		B28C885E1FA52B2000BE7C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28C88361FA52B1F00BE7C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28C884A1FA52B2000BE7C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28C88551FA52B2000BE7C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28C88301FA52B1F00BE7C7A = {
+			isa = PBXGroup;
+			children = (
+				B28C883B1FA52B2000BE7C7A /* KumuMarionTrickOrTreat */,
+				B28C88501FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests */,
+				B28C885B1FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests */,
+				B28C883A1FA52B2000BE7C7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28C883A1FA52B2000BE7C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28C88391FA52B2000BE7C7A /* KumuMarionTrickOrTreat.app */,
+				B28C884D1FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests.xctest */,
+				B28C88581FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28C883B1FA52B2000BE7C7A /* KumuMarionTrickOrTreat */ = {
+			isa = PBXGroup;
+			children = (
+				B28C883C1FA52B2000BE7C7A /* AppDelegate.swift */,
+				B28C883E1FA52B2000BE7C7A /* ViewController.swift */,
+				B28C88401FA52B2000BE7C7A /* Main.storyboard */,
+				B28C88431FA52B2000BE7C7A /* Assets.xcassets */,
+				B28C88451FA52B2000BE7C7A /* LaunchScreen.storyboard */,
+				B28C88481FA52B2000BE7C7A /* Info.plist */,
+			);
+			path = KumuMarionTrickOrTreat;
+			sourceTree = "<group>";
+		};
+		B28C88501FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests */ = {
+			isa = PBXGroup;
+			children = (
+				B28C88511FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests.swift */,
+				B28C88531FA52B2000BE7C7A /* Info.plist */,
+			);
+			path = KumuMarionTrickOrTreatTests;
+			sourceTree = "<group>";
+		};
+		B28C885B1FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B28C885C1FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests.swift */,
+				B28C885E1FA52B2000BE7C7A /* Info.plist */,
+			);
+			path = KumuMarionTrickOrTreatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28C88381FA52B1F00BE7C7A /* KumuMarionTrickOrTreat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28C88611FA52B2000BE7C7A /* Build configuration list for PBXNativeTarget "KumuMarionTrickOrTreat" */;
+			buildPhases = (
+				B28C88351FA52B1F00BE7C7A /* Sources */,
+				B28C88361FA52B1F00BE7C7A /* Frameworks */,
+				B28C88371FA52B1F00BE7C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KumuMarionTrickOrTreat;
+			productName = KumuMarionTrickOrTreat;
+			productReference = B28C88391FA52B2000BE7C7A /* KumuMarionTrickOrTreat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B28C884C1FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28C88641FA52B2000BE7C7A /* Build configuration list for PBXNativeTarget "KumuMarionTrickOrTreatTests" */;
+			buildPhases = (
+				B28C88491FA52B2000BE7C7A /* Sources */,
+				B28C884A1FA52B2000BE7C7A /* Frameworks */,
+				B28C884B1FA52B2000BE7C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28C884F1FA52B2000BE7C7A /* PBXTargetDependency */,
+			);
+			name = KumuMarionTrickOrTreatTests;
+			productName = KumuMarionTrickOrTreatTests;
+			productReference = B28C884D1FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B28C88571FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28C88671FA52B2000BE7C7A /* Build configuration list for PBXNativeTarget "KumuMarionTrickOrTreatUITests" */;
+			buildPhases = (
+				B28C88541FA52B2000BE7C7A /* Sources */,
+				B28C88551FA52B2000BE7C7A /* Frameworks */,
+				B28C88561FA52B2000BE7C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28C885A1FA52B2000BE7C7A /* PBXTargetDependency */,
+			);
+			name = KumuMarionTrickOrTreatUITests;
+			productName = KumuMarionTrickOrTreatUITests;
+			productReference = B28C88581FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28C88311FA52B1F00BE7C7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kumu;
+				TargetAttributes = {
+					B28C88381FA52B1F00BE7C7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B28C884C1FA52B2000BE7C7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B28C88381FA52B1F00BE7C7A;
+					};
+					B28C88571FA52B2000BE7C7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B28C88381FA52B1F00BE7C7A;
+					};
+				};
+			};
+			buildConfigurationList = B28C88341FA52B1F00BE7C7A /* Build configuration list for PBXProject "KumuMarionTrickOrTreat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28C88301FA52B1F00BE7C7A;
+			productRefGroup = B28C883A1FA52B2000BE7C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28C88381FA52B1F00BE7C7A /* KumuMarionTrickOrTreat */,
+				B28C884C1FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests */,
+				B28C88571FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B28C88371FA52B1F00BE7C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28C88471FA52B2000BE7C7A /* LaunchScreen.storyboard in Resources */,
+				B28C88441FA52B2000BE7C7A /* Assets.xcassets in Resources */,
+				B28C88421FA52B2000BE7C7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28C884B1FA52B2000BE7C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28C88561FA52B2000BE7C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28C88351FA52B1F00BE7C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28C883F1FA52B2000BE7C7A /* ViewController.swift in Sources */,
+				B28C883D1FA52B2000BE7C7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28C88491FA52B2000BE7C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28C88521FA52B2000BE7C7A /* KumuMarionTrickOrTreatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28C88541FA52B2000BE7C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28C885D1FA52B2000BE7C7A /* KumuMarionTrickOrTreatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B28C884F1FA52B2000BE7C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28C88381FA52B1F00BE7C7A /* KumuMarionTrickOrTreat */;
+			targetProxy = B28C884E1FA52B2000BE7C7A /* PBXContainerItemProxy */;
+		};
+		B28C885A1FA52B2000BE7C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28C88381FA52B1F00BE7C7A /* KumuMarionTrickOrTreat */;
+			targetProxy = B28C88591FA52B2000BE7C7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B28C88401FA52B2000BE7C7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28C88411FA52B2000BE7C7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B28C88451FA52B2000BE7C7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28C88461FA52B2000BE7C7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B28C885F1FA52B2000BE7C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B28C88601FA52B2000BE7C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B28C88621FA52B2000BE7C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KumuMarionTrickOrTreat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarionTest.KumuMarionTrickOrTreat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B28C88631FA52B2000BE7C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KumuMarionTrickOrTreat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarionTest.KumuMarionTrickOrTreat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B28C88651FA52B2000BE7C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KumuMarionTrickOrTreatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarionTest.KumuMarionTrickOrTreatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KumuMarionTrickOrTreat.app/KumuMarionTrickOrTreat";
+			};
+			name = Debug;
+		};
+		B28C88661FA52B2000BE7C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KumuMarionTrickOrTreatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarionTest.KumuMarionTrickOrTreatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KumuMarionTrickOrTreat.app/KumuMarionTrickOrTreat";
+			};
+			name = Release;
+		};
+		B28C88681FA52B2000BE7C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KumuMarionTrickOrTreatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarionTest.KumuMarionTrickOrTreatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KumuMarionTrickOrTreat;
+			};
+			name = Debug;
+		};
+		B28C88691FA52B2000BE7C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KumuMarionTrickOrTreatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarionTest.KumuMarionTrickOrTreatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KumuMarionTrickOrTreat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28C88341FA52B1F00BE7C7A /* Build configuration list for PBXProject "KumuMarionTrickOrTreat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28C885F1FA52B2000BE7C7A /* Debug */,
+				B28C88601FA52B2000BE7C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28C88611FA52B2000BE7C7A /* Build configuration list for PBXNativeTarget "KumuMarionTrickOrTreat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28C88621FA52B2000BE7C7A /* Debug */,
+				B28C88631FA52B2000BE7C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B28C88641FA52B2000BE7C7A /* Build configuration list for PBXNativeTarget "KumuMarionTrickOrTreatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28C88651FA52B2000BE7C7A /* Debug */,
+				B28C88661FA52B2000BE7C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B28C88671FA52B2000BE7C7A /* Build configuration list for PBXNativeTarget "KumuMarionTrickOrTreatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28C88681FA52B2000BE7C7A /* Debug */,
+				B28C88691FA52B2000BE7C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28C88311FA52B1F00BE7C7A /* Project object */;
+}
